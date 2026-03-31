@@ -3,9 +3,9 @@
 {% block page_title %}Gestion des justifications{% endblock %}
 {% block content %}
 <div class="d-flex gap-2 mb-4">
-    <a href="?status=pending" class="btn {% if status_filter == 'pending' %}btn-warning{% else %}btn-outline-secondary{% endif %} btn-sm">⏳ En attente</a>
-    <a href="?status=approved" class="btn {% if status_filter == 'approved' %}btn-success{% else %}btn-outline-secondary{% endif %} btn-sm">✅ Approuvées</a>
-    <a href="?status=rejected" class="btn {% if status_filter == 'rejected' %}btn-danger{% else %}btn-outline-secondary{% endif %} btn-sm">❌ Rejetées</a>
+    <a href="?status=pending" class="btn {% if status_filter == 'pending' %}btn-warning{% else %}btn-outline-secondary{% endif %} btn-sm"> En attente</a>
+    <a href="?status=approved" class="btn {% if status_filter == 'approved' %}btn-success{% else %}btn-outline-secondary{% endif %} btn-sm"> Approuvées</a>
+    <a href="?status=rejected" class="btn {% if status_filter == 'rejected' %}btn-danger{% else %}btn-outline-secondary{% endif %} btn-sm"> Rejetées</a>
     <a href="?status=all" class="btn {% if status_filter == 'all' %}btn-primary{% else %}btn-outline-secondary{% endif %} btn-sm">Toutes</a>
 </div>
 <div class="card">

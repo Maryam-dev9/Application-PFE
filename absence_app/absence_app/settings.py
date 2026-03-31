@@ -10,7 +10,7 @@ SECRET_KEY = 'django-insecure-absence-app-pfe-2024-change-in-production'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*', 'localhost', ' 192.168.11.100']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
